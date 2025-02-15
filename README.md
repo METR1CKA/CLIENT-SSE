@@ -1,4 +1,4 @@
-# API SSE
+# CLIENT SSE
 
 Run with Live server extension in VSCode.
 
