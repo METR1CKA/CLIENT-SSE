@@ -4,17 +4,16 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://cdn.tailwindcss.com"></script>
-        <title>Server-Sent Events: Fecha y Hora</title>
+        <title>Server Side Events</title>
     </head>
     <body class="bg-gray-100 text-gray-800 antialiased">
         <main class="max-w-lg mx-auto my-8 p-6 bg-white rounded-2xl shadow-lg">
             <header class="mb-6">
-                <h1 class="text-2xl font-semibold text-center text-gray-900">
-                    Server-Sent Events: Fecha y Hora
+                <h1 class="text-2xl font-semibold text-center">
+                    Server Side Events: Fecha y Hora
                 </h1>
             </header>
 
-            <!-- Spinner de carga -->
             <div
                 id="spinner"
                 class="flex items-center justify-center space-x-2 p-4"
@@ -42,9 +41,7 @@
                 <span class="text-gray-500 font-medium">Cargando…</span>
             </div>
 
-            <section id="events" class="space-y-4">
-                <!-- Eventos SSE -->
-            </section>
+            <section id="events" class="space-y-4"></section>
         </main>
 
         <script src="app.js"></script>
